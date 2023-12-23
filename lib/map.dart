@@ -3,7 +3,7 @@ import 'package:open_street_map_search_and_pick/open_street_map_search_and_pick.
 import 'package:openstreetmappackage/services.dart';
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
-
+  
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
@@ -30,8 +30,10 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+
     return Scaffold(
         appBar: AppBar(
+           centerTitle: true,
           backgroundColor: Colors.black,
           // Here we take the value from the MyHomePage object that was created by
           // the App.build method, and use it to set our appbar title.
